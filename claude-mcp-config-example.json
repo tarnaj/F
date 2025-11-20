@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "Framelink MCP for Figma": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--figma-api-key=YOUR_FIGMA_API_KEY_HERE", "--stdio"]
+    }
+  }
+}
+
+// Alternative: Using environment variable (more secure)
+// {
+//   "mcpServers": {
+//     "Framelink MCP for Figma": {
+//       "command": "npx",
+//       "args": ["-y", "figma-developer-mcp", "--stdio"],
+//       "env": {
+//         "FIGMA_API_KEY": "YOUR_FIGMA_API_KEY_HERE"
+//       }
+//     }
+//   }
+// }
+
+// Alternative: Using local build (faster)
+// {
+//   "mcpServers": {
+//     "Framelink MCP for Figma": {
+//       "command": "node",
+//       "args": ["/home/user/F/dist/bin.js", "--figma-api-key=YOUR_FIGMA_API_KEY_HERE", "--stdio"]
+//     }
+//   }
+// }

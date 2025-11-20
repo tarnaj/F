@@ -11,6 +11,9 @@ dist
 .env.local
 .env.*.local
 
+# MCP config with actual API keys
+claude-mcp-config-ACTUAL.json
+
 # IDE
 .vscode/*
 !.vscode/extensions.json
